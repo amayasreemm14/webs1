@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>change image</title>
+</head>
+<body>
+<h1>click image to change image </h1>
+<img id="i" src="image1.jpeg" onmouseover="changei()" onmouseout="setold()">
+<script>
+function changei()
+{
+document.getElementById("i").src="image1.jpeg";
+}
+function setold()
+{
+document.getElementById("i").src="image2.jpeg";
+}
+</script>
+</body>
+</html>
+
